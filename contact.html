@@ -8,6 +8,127 @@
     <title>Document</title>
 </head>
 <body>
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+            <!-- this script is used from fontawesome, some guy in a tutorial told me to install it here -->
+            <script
+              defer
+              src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+              integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+              crossorigin="anonymous"
+            ></script>
+            <link rel="stylesheet" href="stylesheet.css" />
+            <title>Tapijten-Labelle</title>
+          </head>
+        
+          <body>
+            <!-- Wrapper, it's like the body of the whole page I guess -->
+            <div class="wrapper">
+                <!-- navigation, here i want to put my logo and nav -->
+              
+             
+          <nav class="main-nav">
+                <ul>
+                  <li> 
+                    <img class="logo" src="../Redline-FrederikDeclercq/Images/logo.PNG" />
+                  </li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Producten</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+        <!-- top container, this is where I want to put my aside and head body in, probably also my footer-->
+        
+        <div class="main-body">
+          
+        <!-- this is the sidebar -->
+          <div class="sidebar">
+        <p>Openingsuren: 
+          <ul>
+        <li>Dinsdag: 8u-18u</li>
+        <li>Woensdag: 8u-18u</li>
+        <li>Donderdag: 8u-18u</li>
+        <li>Vrijdag: 8u-18u</li>
+        <li>Zaterdag: 8u-17u30</li>
+          </ul>
+        Zondag, Maandag en Feestdagen gesloten
+        </p>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.687586303266!2d4.120804015505582!3d51.11422404719525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c38e2279b118a7%3A0xbac3599bdcb53dc3!2sDommelstraat+140%2C+9250+Waasmunster!5e0!3m2!1snl!2sbe!4v1552664377210" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        
+          <!-- this is the caroussel -->
+        
+        <div class="about-labelle">
+            <h1>Tapijten Labelle, uw partner in interieur!</h1>
+            <p>
+              Soms is het druk in onze winkel en kunnen we u niet meteen adviseren. Om te voorkomen dat u niet meteen geholpen wordt door een van onze medewerkers, kunt u hier een afspraak inplannen. Op die manier hopen we u nog beter van dienst te zijn! 
+            </p>
+            <div class="contact-form">
+                    <div style="text-align:center">
+                    </div>
+                    <div class="row">
+                      <div class="column">
+                      </div>
+                      <div class="column">
+                        <form action="/action_page.php">
+                          <label for="fname">Naam + Voornaam</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Naam+Voornaam">
+                          <label for="lname">E-mail</label>
+                          <input type="text" id="lname" name="lastname" placeholder="E-mail">
+                          <label for="gsm">GSM</label>
+                          <input type="text" id="lname" name="lastname" placeholder="GSM">
+                             <p><label for="fdate">Datum</label>
+                          <input type="date" name="date"></p>
+                          <p><label for="ftijd">Tijdstip</label> 
+                          <input type="time" id="appt" name="appt"
+                         min="9:00" max="18:00" required></p>        
+                         <p><label for="onderwerp">Onderwerp afspraak</label>
+                          <textarea id="onderwerp" name="onderwerp" placeholder="Schrijf hier waarom u ons wil bezoeken" style="height:170px"></textarea></p>
+                          <p><input type="submit" value="Maak afspraak"></p>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+          </div>
+        
+            <footer>
+              <div class="contact-footer box">
+              <p>Tel: 0475/789456</p>
+              <p>E-mail
+                <a href="mailto:tapijtenlabelle.com"> info@tapijtenlabelle.com</a>
+              </p>
+            </div>
+        
+            <div class="social-footer box">
+              <h4>Volg ons op social media!</h4>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        
+            <div class="newsletter-footer box">
+              <h4>Schrijf in op onze nieuwsbrief</h4>
+              <form action="/action_page.php">
+              Email:<br>
+              <input type="text" name="firstname">
+              <br><br>
+              <input type="submit" value="Submit">
+              </form> 
+            </div>
+          </footer>
+        
+            </div>
+        
+            <!-- wrapper ends -->
+          </body>
+        </html>
+        
     
 </body>
 </html>
